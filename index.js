@@ -1,3 +1,7 @@
-let fs = require('fs');
+let name = 'Olga';
 
-fs.writeFileSync('./test.txt', 'hello'); 
+if (1) {
+    let name = 'Roman';
+    console.log(name);
+}
+console.log(name);
